@@ -3,12 +3,30 @@
 
 int sum_array(int arr[]); // TODO understand these declarations
 
+int divide(int numbers[])
+{
+    // TODO
+    return 0;
+}
+
+int multiply(int numbers[])
+{
+    // TODO
+    return 0;
+}
+
+int subtract(int numbers[])
+{
+    // TODO
+    return 0;
+}
+
 int add(int numbers[])
 {
     return sum_array(numbers);
 }
 
-int sum_array(int arr[])
+int sum_array(int arr[]) // TODO Make this private
 {
    int i, sum=0;
    int n = sizeof(&arr)/sizeof(int) + 1; // TODO better understand the ampersand here
@@ -20,16 +38,16 @@ int sum_array(int arr[])
    return(sum);
 }
 
-int main() //(int argc, char *argv[])
-{
-   printf("Let's Go!\n");
-
-   // char *ptr;
-   // printf("%ld", strtol(argv[1], &ptr, 10)); // TODO accept arguments, cast to integers
-
-   int inputs[] = {2, 3, 4}; // TODO not global
-   int answer = add(inputs);
-   printf("2 + 3 + 4 = %d\n", answer);
-
-   return 0;
-}
+// int main() //(int argc, char *argv[])
+// {
+//    printf("Let's Go!\n");
+//
+//    // char *ptr;
+//    // printf("%ld", strtol(argv[1], &ptr, 10)); // TODO accept arguments, cast to integers
+//
+//    int inputs[] = {2, 3, 4}; // TODO not global
+//    int answer = add(inputs);
+//    printf("2 + 3 + 4 = %d\n", answer);
+//
+//    return 0;
+// }
